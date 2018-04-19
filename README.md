@@ -31,3 +31,13 @@ $ git remote add origin git@github.com:9xdp/source.9xdp.github.io.git
 # 서버
 $ git remote add prod git@github.com:9xdp/9xdp.github.io.git
 ```
+
+## 배포 관리
+
+``` bash
+# static 페이지 생성
+$ yarn run generate
+
+# static 파일 prod 브랜치 (github page)로 푸쉬
+$ yarn run deploy
+```
