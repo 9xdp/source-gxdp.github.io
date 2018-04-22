@@ -2,7 +2,7 @@
   <header class="hero is-primary is-medium">
     <div class="hero-head">
       <nav class="navbar">
-        <div class="container">
+        <div class="container" style="z-index: 1">
           <div class="navbar-brand">
             <a class="navbar-item" href="/">
               <img src="~assets/9xdp_logo.png" alt="Logo">

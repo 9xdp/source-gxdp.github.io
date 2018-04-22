@@ -23,9 +23,9 @@
 <style scoped>
   #particles-js {
     position: absolute;
-    top: 0;
+    top: 5vh;
     left: 0;
     width: 100%;
-    height: 60vh;
+    height: 50vh;
   }
 </style>
