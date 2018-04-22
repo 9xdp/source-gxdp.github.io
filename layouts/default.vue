@@ -1,7 +1,7 @@
 <template>
   <div>
     <Header />
-    <nuxt/>
+    <nuxt />
     <Footer />
   </div>
 </template>
@@ -32,7 +32,7 @@ html, body {
   line-height: 1.5;
 }
 .features {
-  padding: 5rem 0;
+  padding: 3rem 0;
 }
 .box.cta {
   border-radius: 0;
