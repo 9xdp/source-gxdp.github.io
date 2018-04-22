@@ -43,7 +43,7 @@ html, body {
   font-size: 8rem;
   padding-top: 2rem;
   padding-bottom: 2rem;
-  color: #209cee;
+  /* color: #209cee; */
 }
 .card-content .content {
   font-size: 14px;
