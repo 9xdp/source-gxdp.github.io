@@ -1,28 +1,17 @@
 <template>
   <div>
+    <Header />
     <nuxt/>
-    <footer class="footer">
-      <div class="container">
-        <div class="content has-text-centered">
-          <p>
-            <strong>Made with 🔥 in <a href="https://9xdp.github.io">9xdp</a></strong> since 2018 - {{ year }}
-          </p>
-          <p>
-            <a class="icon" href="https://github.com/dansup/bulma-templates">
-              <i class="fa fa-github"></i>
-            </a>
-          </p>
-        </div>
-      </div>
-    </footer>
+    <Footer />
   </div>
 </template>
 <script>
+  import Header from '@/components/Header.vue';
+  import Footer from "@/components/Footer.vue";
   export default {
-    data () {
-      return {
-        year: new Date().getFullYear()
-      }
+    components: {
+      Header,
+      Footer
     }
   }
 </script>

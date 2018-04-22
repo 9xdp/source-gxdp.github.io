@@ -35,6 +35,7 @@ module.exports = {
     '@nuxtjs/pwa',
     '@nuxtjs/toast',
     '@nuxtjs/axios',
+    '@nuxtjs/font-awesome',
     '@nuxtjs/bulma'
   ]
 }

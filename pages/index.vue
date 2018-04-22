@@ -1,43 +1,6 @@
 <template>
   <div>
-    <section class="hero is-primary is-medium is-bold">
-      <div class="hero-head">
-        <nav class="navbar">
-          <div class="container">
-            <div class="navbar-brand">
-              <a class="navbar-item" href="/">
-                <img src="~assets/9xdp_logo.png" alt="Logo">
-              </a>
-              <span class="navbar-burger burger" data-target="navbarMenu">
-                <span></span>
-                <span></span>
-                <span></span>
-              </span>
-            </div>
-            <div id="navbarMenu" class="navbar-menu">
-              <div class="navbar-end">
-                <a class="navbar-item is-active">
-                  Home
-                </a>
-                <a class="navbar-item">
-                  Introduction
-                </a>
-                <a class="navbar-item">
-                  Documentation
-                </a>
-                <span class="navbar-item">
-                  <a class="button is-white is-outlined is-small" href="https://github.com/dansup/bulma-templates/blob/master/templates/hero.html">
-                    <span class="icon">
-                      <i class="fa fa-github"></i>
-                    </span>
-                    <span>View Source</span>
-                  </a>
-                </span>
-              </div>
-            </div>
-          </div>
-        </nav>
-      </div>
+    <section class="hero is-primary is-medium">
       <div class="hero-body">
         <div class="container has-text-centered">
           <h1 class="title">
@@ -48,7 +11,6 @@
           </h2>
         </div>
       </div>
-
     </section>
 
     <div class="box cta">
