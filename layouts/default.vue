@@ -19,6 +19,8 @@
 html, body {
   background: #EFF3F4;
   font-family: 'D2 coding', sans-serif;
+  margin: 0;
+  padding: 0;
 }
 .hero-body .container {
   max-width: 700px;

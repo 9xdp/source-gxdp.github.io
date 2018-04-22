@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div style="overflow: hidden">
     <section class="hero is-primary is-medium">
       <div class="hero-body">
         <div class="container has-text-centered">
@@ -23,7 +23,7 @@
     </div>
 
     <section class="container">
-      <div class="columns features" style="margin: 0">
+      <div class="columns features">
         <div class="column is-4">
           <div class="card is-shady">
             <div class="card-image has-text-centered">
