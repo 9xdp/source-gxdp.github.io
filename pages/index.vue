@@ -14,6 +14,7 @@
           </h2>
         </div>
       </div>
+      <Particles></Particles>
     </section>
 
     <div class="box cta">
@@ -176,9 +177,11 @@
 </template>
 
 <script>
-
+  import Particles from '~/components/Particles'
   export default {
-    components: { },
+    components: {
+      Particles
+    },
     data () {
       return {
         online: true

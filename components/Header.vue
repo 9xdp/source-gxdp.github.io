@@ -59,7 +59,7 @@ export default {
 
   methods: {
     toggleMenu (event) {
-      this.burgerMenuClicked = !this.burgerMenuClicked;
+      this.burgerMenuClicked = !this.burgerMenuClicked
     }
   }
 }
