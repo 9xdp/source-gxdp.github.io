@@ -14,7 +14,7 @@
           </h2>
         </div>
       </div>
-      <Particles></Particles>
+      <Particles />
     </section>
 
     <div class="box cta">
