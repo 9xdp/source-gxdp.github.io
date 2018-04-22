@@ -18,7 +18,7 @@
 
     <div class="box cta">
       <p class="has-text-centered">
-        프로젝트 활동의 첫 단추, 진짜 나만의 서비스를 확장하고 싶은 이 곳은<span class="tag is-primary">9XDP</span>입니다.
+        프로젝트 활동의 첫 단추, 진짜 나만의 서비스를 만드는 이 곳은<span class="tag is-primary">9XDP</span>입니다.
       </p>
     </div>
 
@@ -27,13 +27,15 @@
         <div class="column is-4">
           <div class="card is-shady">
             <div class="card-image has-text-centered">
-                <i class="fa fa-paw"></i>
+              <figure class="image fa">
+                <img src="~/static/nuxt.png" alt="Nuxt.js" class="max150"/>
+              </figure>
             </div>
-            <div class="card-content">
+            <div class="card-content" style="">
               <div class="content">
-                <h4>Tristique senectus et netus et. </h4>
-                <p>Purus semper eget duis at tellus at urna condimentum mattis. Non blandit massa enim nec. Integer enim neque volutpat ac tincidunt vitae semper quis. Accumsan tortor posuere ac ut consequat semper viverra nam.</p>
-                <p><a href="#">Learn more</a></p>
+                <h4>Nuxt.js</h4>
+                <p>정적 사이트를 빠르게 만들기 위해 프론트는 모두 <strong>Nuxt.js</strong>를 사용합니다. 당신은 <strong>Vue.js</strong>를 자유자재로 다룰 줄 알아야합니다.</p>
+                <p><a href="//ko.nuxtjs.org/guide" target="new">더 알아보기</a></p>
               </div>
             </div>
           </div>
@@ -41,13 +43,15 @@
         <div class="column is-4">
           <div class="card is-shady">
             <div class="card-image has-text-centered">
-                <i class="fa fa-empire"></i>
+              <figure class="image fa">
+                <img src="~/static/github-pages.jpg" alt="GithubPages.js" class="max150"/>
+              </figure>
             </div>
             <div class="card-content">
               <div class="content">
-                <h4>Tempor orci dapibus ultrices in.</h4>
+                <h4>Github Page</h4>
                 <p>Ut venenatis tellus in metus vulputate. Amet consectetur adipiscing elit pellentesque. Sed arcu non odio euismod lacinia at quis risus. Faucibus turpis in eu mi bibendum neque egestas cmonsu songue. Phasellus vestibulum lorem sed risus.</p>
-                <p><a href="#">Learn more</a></p>
+                <p><a href="//pages.github.com/">더 알아보기</a></p>
               </div>
             </div>
           </div>
@@ -218,5 +222,9 @@
 
   .network.offline .circle {
     background: red;
+  }
+
+  .max150 {
+    max-height: 150px;
   }
 </style>
