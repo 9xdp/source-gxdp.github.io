@@ -1,5 +1,5 @@
 <template>
-  <section class="hero is-primary is-medium is-bold">
+  <header class="hero is-primary is-medium">
     <div class="hero-head">
       <nav class="navbar">
         <div class="container">
@@ -47,7 +47,7 @@
         </div>
       </nav>
     </div>
-  </section>
+  </header>
 </template>
 <script>
 export default {

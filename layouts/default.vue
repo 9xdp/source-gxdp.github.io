@@ -1,7 +1,7 @@
 <template>
   <div>
     <Header />
-    <nuxt/>
+    <nuxt />
     <Footer />
   </div>
 </template>
@@ -32,7 +32,7 @@ html, body {
   line-height: 1.5;
 }
 .features {
-  padding: 5rem 0;
+  padding: 3rem 0;
 }
 .box.cta {
   border-radius: 0;
@@ -43,7 +43,7 @@ html, body {
   font-size: 8rem;
   padding-top: 2rem;
   padding-bottom: 2rem;
-  color: #209cee;
+  /* color: #209cee; */
 }
 .card-content .content {
   font-size: 14px;

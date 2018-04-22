@@ -24,7 +24,7 @@
     </div>
 
     <section class="container">
-      <div class="columns features">
+      <div class="columns features" style="margin: 0">
         <div class="column is-4">
           <div class="card is-shady">
             <div class="card-image has-text-centered">
@@ -35,7 +35,7 @@
             <div class="card-content" style="">
               <div class="content">
                 <h4>Nuxt.js</h4>
-                <p>정적 사이트를 빠르게 만들기 위해 프론트는 모두 <strong>Nuxt.js</strong>를 사용합니다. 당신은 <strong>Vue.js</strong>를 자유자재로 다룰 줄 알아야합니다.</p>
+                <p>정적 사이트를 빠르게 만들기 위해 프론트는 모두 <strong>Nuxt.js</strong>를 사용합니다. <strong>Vue.js</strong>를 자유자재로 다룰 줄 알아야합니다.</p>
                 <p><a href="//ko.nuxtjs.org/guide" target="new">더 알아보기</a></p>
               </div>
             </div>
@@ -50,9 +50,9 @@
             </div>
             <div class="card-content">
               <div class="content">
-                <h4>Github Page</h4>
-                <p>Ut venenatis tellus in metus vulputate. Amet consectetur adipiscing elit pellentesque. Sed arcu non odio euismod lacinia at quis risus. Faucibus turpis in eu mi bibendum neque egestas cmonsu songue. Phasellus vestibulum lorem sed risus.</p>
-                <p><a href="//pages.github.com/">더 알아보기</a></p>
+                <h4>Github Pages</h4>
+                <p>진정한 서버리스와 0원에 수렴하는 호스팅 비용을 위해 <strong>GitHub Pages</strong>를 사용합니다. <strong>Git</strong>의 기본적인 명령어와 <strong>GitHub</strong>에서 정적 호스팅이 어떻게 되는지에 대해 알아야합니다.</p>
+                <p><a href="//pages.github.com/" target="new">더 알아보기</a></p>
               </div>
             </div>
           </div>
@@ -60,13 +60,13 @@
         <div class="column is-4">
           <div class="card is-shady">
             <div class="card-image has-text-centered">
-                <i class="fa fa-id-card-o"></i>
+                <i class="fa fa-question"></i>
             </div>
             <div class="card-content">
               <div class="content">
-                <h4> Leo integer malesuada nunc vel risus.  </h4>
-                <p>Imperdiet dui accumsan sit amet nulla facilisi morbi. Fusce ut placerat orci nulla pellentesque dignissim enim. Libero id faucibus nisl tincidunt eget nullam. Commodo viverra maecenas accumsan lacus vel facilisis.</p>
-                <p><a href="#">Learn more</a></p>
+                <h4>하나 이상의 WEB Framework</h4>
+                <p>OOP, DI, ORM, Authrization 등 기본기를 알려드리진 않습니다. <strong>Laravel, Spring, Django, Rails, Revel...</strong> 중 하나는 부탁드려요.</p>
+                <p><a href="https://github.com/topics/framework?o=desc&s=stars" target="new">더 알아보기</a></p>
               </div>
             </div>
           </div>
@@ -78,7 +78,7 @@
         <p class="subtitle">Vel fringilla est ullamcorper eget nulla facilisi. Nulla facilisi nullam vehicula ipsum a. Neque egestas congue quisque egestas diam in arcu cursus.</p>
       </div>
 
-      <div class="sandbox">
+      <div class="sandbox" style="margin: 0.75rem;">
         <div class="tile is-ancestor">
           <div class="tile is-parent is-shady">
             <article class="tile is-child notification is-white">
