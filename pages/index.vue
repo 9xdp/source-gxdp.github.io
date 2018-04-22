@@ -23,7 +23,7 @@
     </div>
 
     <section class="container">
-      <div class="columns features">
+      <div class="columns features" style="margin: 0">
         <div class="column is-4">
           <div class="card is-shady">
             <div class="card-image has-text-centered">
@@ -77,7 +77,7 @@
         <p class="subtitle">Vel fringilla est ullamcorper eget nulla facilisi. Nulla facilisi nullam vehicula ipsum a. Neque egestas congue quisque egestas diam in arcu cursus.</p>
       </div>
 
-      <div class="sandbox">
+      <div class="sandbox" style="margin: 0.75rem;">
         <div class="tile is-ancestor">
           <div class="tile is-parent is-shady">
             <article class="tile is-child notification is-white">
