@@ -3,7 +3,7 @@
     <div class="container">
       <div class="content has-text-centered">
         <p>
-          <strong>Made with 🔥 in <a href="https://9xdp.github.io">9xdp</a></strong> since 2018 - {{ year }}
+          <strong>Made with 🔥 in <a href="https://9xdp.github.io">9xdp</a></strong> since {{ year }}
         </p>
       </div>
     </div>

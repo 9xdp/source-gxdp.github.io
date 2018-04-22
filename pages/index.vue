@@ -4,10 +4,13 @@
       <div class="hero-body">
         <div class="container has-text-centered">
           <h1 class="title">
-            The new standard in &lt;insert industry here&gt;
+            9X년생 개발자 모임*
           </h1>
           <h2 class="subtitle">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+            <p>Hello World만 찍는 모임</p>
+            <p>위치가 멀어서 시간이 없어서 못 가는 모임</p>
+            <p>결국 뭐라도 하다가 서버 비용에서 막히는 모임</p>
+            <p>이제 그만 🖤</p>
           </h2>
         </div>
       </div>
@@ -15,7 +18,7 @@
 
     <div class="box cta">
       <p class="has-text-centered">
-        <span class="tag is-primary">New</span> Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+        프로젝트 활동의 첫 단추, 진짜 나만의 서비스를 확장하고 싶은 이 곳은<span class="tag is-primary">9XDP</span>입니다.
       </p>
     </div>
 
