@@ -12,8 +12,7 @@
     "@nuxtjs/pwa": "latest",
     "@nuxtjs/sitemap": "^0.1.1",
     "@nuxtjs/toast": "^3.0.0",
-    "nuxt": "latest",
-    "vue-particles": "^1.0.9"
+    "nuxt": "latest"
   },
   "scripts": {
     "dev": "nuxt",
@@ -33,6 +32,7 @@
     "eslint-plugin-promise": "^3.4.1",
     "eslint-plugin-standard": "^2.0.1",
     "push-dir": "^0.4.1",
-    "rimraf": "^2.6.2"
+    "rimraf": "^2.6.2",
+    "vue-particles": "^1.0.9"
   }
 }
