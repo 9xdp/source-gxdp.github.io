@@ -18,7 +18,7 @@
 <style>
 html, body {
   background: #EFF3F4;
-  font-family: 'D2coding', serif;
+  font-family: 'D2 coding', sans-serif;
 }
 .hero-body .container {
   max-width: 700px;

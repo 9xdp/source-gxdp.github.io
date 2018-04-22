@@ -113,7 +113,7 @@
                   <p class="title">Middle box</p>
                   <p class="subtitle">With an image</p>
                   <figure class="image is-4by3">
-                    <img src="http://bulma.io/images/placeholders/640x480.png">
+                    <img src="//bulma.io/images/placeholders/640x480.png">
                   </figure>
                 </article>
               </div>
