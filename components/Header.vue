@@ -22,25 +22,25 @@
             :class="['navbar-menu', burgerMenuClicked ? 'is-active' : '']"
           >
             <div class="navbar-end">
-              <a class="navbar-item is-active">
+              <nuxt-link class="navbar-item is-active" to="/">
                 HOME
-              </a>
-              <a class="navbar-item">
-                MEETUP
-              </a>
-              <a class="navbar-item">
+              </nuxt-link>
+              <nuxt-link class="navbar-item" to="/#projects">
                 PROJECTS
-              </a>
-              <a class="navbar-item">
+              </nuxt-link>
+              <nuxt-link class="navbar-item" to="/#members">
                 MEMBERS
-              </a>
+              </nuxt-link>
+              <nuxt-link class="navbar-item" to="/intro/meetup">
+                MEETUP
+              </nuxt-link>
               <span class="navbar-item">
-                <a class="button is-white is-outlined is-small" href="https://github.com/9xdp">
+                <nuxt-link class="button is-white is-outlined is-small" to="/intro/docs">
                   <span class="icon">
-                    <i class="fa fa-github"></i>
+                    <i class="fa fa-book"></i>
                   </span>
-                  <span>Github</span>
-                </a>
+                  <span>Docs</span>
+                </nuxt-link>
               </span>
             </div>
           </div>
