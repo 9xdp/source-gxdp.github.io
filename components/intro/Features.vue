@@ -1,5 +1,5 @@
 <template>
-   <div class="columns features">
+  <div class="columns features">
     <div class="column is-4">
       <div class="card is-shady">
         <div class="card-image has-text-centered">
@@ -49,7 +49,5 @@
   </div>
 </template>
 <script>
-  export default {
-
-  }
+export default {}
 </script>

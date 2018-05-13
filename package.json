@@ -12,7 +12,8 @@
     "@nuxtjs/pwa": "latest",
     "@nuxtjs/sitemap": "^0.1.1",
     "@nuxtjs/toast": "^3.0.0",
-    "nuxt": "latest"
+    "nuxt": "latest",
+    "slack": "^11.0.0"
   },
   "scripts": {
     "dev": "nuxt",
