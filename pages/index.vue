@@ -34,75 +34,79 @@
       <Projects />
       <!-- Members component -->
       <Members />
+      <!-- Join Component -->
+      <Join />
     </section>
   </div>
 </template>
 
 <script>
-  import Particles from '~/components/intro/Particles'
-  import About from '~/components/intro/About'
-  import Features from '~/components/intro/Features'
-  import Projects from '~/components/intro/Projects'
-  import Members from '~/components/intro/Members'
+import Particles from "~/components/intro/Particles"
+import About from "~/components/intro/About"
+import Features from "~/components/intro/Features"
+import Projects from "~/components/intro/Projects"
+import Members from "~/components/intro/Members"
+import Join from "~/components/intro/Join"
 
-  export default {
-    components: {
-      Particles,
-      About,
-      Features,
-      Projects,
-      Members
-    },
+export default {
+  components: {
+    Particles,
+    About,
+    Features,
+    Projects,
+    Members,
+    Join
+  },
 
-    data () {
-      return {
-        online: true
-      }
-    },
-
-    mounted () {
-      if (!window.navigator) {
-        this.online = false
-        return
-      }
-      this.online = Boolean(window.navigator.onLine)
-      window.addEventListener('offline', this._toggleNetworkStatus)
-      window.addEventListener('online', this._toggleNetworkStatus)
-    },
-
-    methods: {
-      _toggleNetworkStatus ({ type }) {
-        this.online = type === 'online'
-      }
-    },
-
-    destroyed () {
-      window.removeEventListener('offline', this._toggleNetworkStatus)
-      window.removeEventListener('online', this._toggleNetworkStatus)
+  data() {
+    return {
+      online: true
     }
+  },
+
+  mounted() {
+    if (!window.navigator) {
+      this.online = false
+      return
+    }
+    this.online = Boolean(window.navigator.onLine)
+    window.addEventListener("offline", this._toggleNetworkStatus)
+    window.addEventListener("online", this._toggleNetworkStatus)
+  },
+
+  methods: {
+    _toggleNetworkStatus({ type }) {
+      this.online = type === "online"
+    }
+  },
+
+  destroyed() {
+    window.removeEventListener("offline", this._toggleNetworkStatus)
+    window.removeEventListener("online", this._toggleNetworkStatus)
   }
+}
 </script>
 
 <style>
-  .network {
-    font-weight: 400;
-    font-size: 1rem;
-  }
+.network {
+  font-weight: 400;
+  font-size: 1rem;
+}
 
-  .network .circle {
-    display: inline-block;
-    width: 1rem;
-    height: 1rem;
-    background: green;
-    padding: .1rem .5rem;
-    border-radius: 1rem;
-  }
+.network .circle {
+  display: inline-block;
+  width: 1rem;
+  height: 1rem;
+  background: green;
+  padding: 0.1rem 0.5rem;
+  border-radius: 1rem;
+}
 
-  .network.offline .circle {
-    background: red;
-  }
+.network.offline .circle {
+  background: red;
+}
 
-  .max150 {
-    max-height: 150px;
-  }
+.max150 {
+  max-height: 150px;
+}
 </style>
