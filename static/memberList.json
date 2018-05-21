@@ -1,0 +1,32 @@
+{
+  "0": {
+    "name": "은광",
+    "img": "/profile.png",
+    "url": "",
+    "motto": "나는 은광이라 쓰고 금광이라 읽는다"
+  },
+  "1": {
+    "name": "호영",
+    "img": "/profile.png",
+    "url": "",
+    "motto": ""
+  },
+  "2": {
+    "name": "영인",
+    "img": "/profile.png",
+    "url": "",
+    "motto": ""
+  },
+  "3": {
+    "name": "세윤",
+    "img": "/profile.png",
+    "url": "",
+    "motto": ""
+  },
+  "4": {
+    "name": "동우",
+    "img": "/profile.png",
+    "url": "",
+    "motto": ""
+  }
+}
