@@ -13,8 +13,7 @@
     "@nuxtjs/sitemap": "^0.1.1",
     "@nuxtjs/toast": "^3.0.1",
     "nuxt": "latest",
-    "nuxt-validate": "^0.1.1",
-    "slack": "^11.0.0"
+    "nuxt-validate": "^0.1.1"
   },
   "scripts": {
     "dev": "nuxt",

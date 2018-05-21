@@ -10,7 +10,8 @@ module.exports = {
   plugins: ["html"],
   // add your custom rules here
   rules: {
-    quotes: false
+    quotes: false,
+    semi: "never"
   },
   globals: {}
 }

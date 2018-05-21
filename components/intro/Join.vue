@@ -1,14 +1,29 @@
 <template>
-  <div class="columns">
-    <div class="column">
-      <input
-        type="email"
-        v-model="email"
-        v-validate="'required|email'"
-        data-vv-name="email"
-        :placeholder="placeHoldEmail"
-      />
-      <button @click="join">JOIN</button>
+  <div class="section">
+    <div class="columns is-centered">
+      <div class="column is-4">
+        <div class="field">
+          <p class="control has-icons-left has-icons-right">
+            <input
+              class="input is-medium"
+              type="email"
+              v-model="email"
+              v-validate="'required|email'"
+              data-vv-name="email"
+              :placeholder="placeHoldEmail"
+            />
+            <span class="icon is-left">
+              <i class="fa fa-envelope"></i>
+            </span>
+            <span class="icon is-right">
+              <i class="fa fa-check"></i>
+            </span>
+          </p>
+        </div>
+      </div>
+      <div class="column is-2">
+        <button @click="join" class="button is-primary is-medium">지원하기</button>
+      </div>
     </div>
   </div>
 </template>
@@ -33,7 +48,8 @@
 
         const result = await this.$validator.validate()
         if (!result) {
-          this.$toast.error(this.$validator.errors.items[0].msg).goAway(1500);
+          this.$toast.error(this.$validator.errors.items[0].msg).goAway(1500)
+          return false
         }
 
         this.submitting = true
