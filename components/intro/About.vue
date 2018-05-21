@@ -22,7 +22,7 @@
          <div class="card is-transparency">
           <div class="card-image">
             <figure class="image is-96x96">
-              <img class="is-rounded" src="~assets/about/circle_overtime.png" alt="야근은 이제 그만">
+              <img class="is-rounded" src="~assets/about/circle_monster.png" alt="야근은 이제 그만">
               <figcaption></figcaption>
             </figure>
           </div>
