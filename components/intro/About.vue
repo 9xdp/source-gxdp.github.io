@@ -36,12 +36,12 @@
         <div class="card is-transparency">
           <div class="card-image">
             <figure class="image is-96x96">
-              <img class="is-rounded" src="~assets/about/96x96.png" alt="Placeholder image">
+              <img class="is-rounded" src="~assets/about/about_3.png" alt="Placeholder image">
               <figcaption></figcaption>
             </figure>
           </div>
           <div class="card-content">
-            <h4 class="has-text-primary is-size-6">3</h4>
+            <h4 class="has-text-primary is-size-6 has-text-weight-semibold">해냈닭!! 오늘 저녁은 치킨이닭!!</h4>
             <p class="is-size-7">가나다라마바사</p>
           </div>
         </div>
