@@ -84,4 +84,14 @@ html, body {
 .is-shady:hover {
   box-shadow: 0 10px 16px rgba(0, 0, 0, .13), 0 6px 6px rgba(0, 0, 0, .19);
 }
+
+/* 배경 및 그림자 없는 카드 커스터마이징 */
+.card.is-transparency {
+  box-shadow: none;
+  background-color: rgba(0, 0, 0, 0);
+  /*margin: 10px;*/
+}
+.card.is-transparency .image {
+  display: inline-block;
+}
 </style>
