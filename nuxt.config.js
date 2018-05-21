@@ -19,8 +19,7 @@ module.exports = {
         rel: "stylesheet",
         href:
           "https://cdn.jsdelivr.net/gh/Joungkyun/font-d2coding@1.31.0/d2coding.css"
-      },
-      { rel: "shortcut icon", href: "/favicon_32.png" }
+      }
     ],
     title: "9X년생 개발자 모임🌟"
   },
