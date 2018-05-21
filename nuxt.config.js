@@ -5,7 +5,7 @@ module.exports = {
   build: {
     postcss: {
       plugins: {
-        'postcss-custom-properties': false
+        "postcss-custom-properties": false
       }
     }
   },
@@ -15,31 +15,45 @@ module.exports = {
   */
   head: {
     link: [
-      { rel: 'stylesheet', href: 'https://cdn.jsdelivr.net/gh/Joungkyun/font-d2coding@1.31.0/d2coding.css' },
-      { rel: 'shortcut icon', href: '/favicon_32.png' }
+      {
+        rel: "stylesheet",
+        href:
+          "https://cdn.jsdelivr.net/gh/Joungkyun/font-d2coding@1.31.0/d2coding.css"
+      },
+      { rel: "shortcut icon", href: "/favicon_32.png" }
     ]
   },
   /*
   ** Customize the progress-bar color
   */
-  loading: { color: '#3B8070' },
+  loading: { color: "#3B8070" },
   /*
   ** Customize app manifest
   */
   manifest: {
-    theme_color: '#3B8070'
+    theme_color: "#3B8070"
   },
   /*
   ** Modules
   */
   modules: [
-    '@nuxtjs/pwa',
-    '@nuxtjs/toast',
-    '@nuxtjs/axios',
-    '@nuxtjs/font-awesome',
-    '@nuxtjs/bulma'
+    "@nuxtjs/pwa",
+    "@nuxtjs/toast",
+    "@nuxtjs/axios",
+    "@nuxtjs/font-awesome",
+    "@nuxtjs/bulma",
+    "@nuxtjs/toast",
+    [
+      "nuxt-validate",
+      {
+        lang: "ko"
+      }
+    ]
   ],
-  plugins: [
-    {src: '~/plugins/particles', ssr: false}
-  ]
+
+  plugins: [{ src: "~/plugins/particles", ssr: false }],
+
+  toast: {
+    duration: 2000
+  }
 }

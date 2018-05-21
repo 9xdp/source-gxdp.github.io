@@ -74,9 +74,9 @@
     minimatch "^3.0.4"
     sitemap "^1.13.0"
 
-"@nuxtjs/toast@^3.0.0":
-  version "3.0.0"
-  resolved "https://registry.yarnpkg.com/@nuxtjs/toast/-/toast-3.0.0.tgz#7e662f4fa6d2fd126f92dbb8b9695a79d459b609"
+"@nuxtjs/toast@^3.0.1":
+  version "3.0.1"
+  resolved "https://registry.yarnpkg.com/@nuxtjs/toast/-/toast-3.0.1.tgz#20ea4eeb15dbac12d9967e85b809ca49c8a14cf5"
   dependencies:
     vue-toasted "^1.1.24"
 
@@ -4053,6 +4053,12 @@ number-is-nan@^1.0.0:
   version "1.0.1"
   resolved "https://registry.yarnpkg.com/number-is-nan/-/number-is-nan-1.0.1.tgz#097b602b53422a522c1afb8790318336941a011d"
 
+nuxt-validate@^0.1.1:
+  version "0.1.1"
+  resolved "https://registry.yarnpkg.com/nuxt-validate/-/nuxt-validate-0.1.1.tgz#55d827783b2f9f51c81aeaa2f2e28474fddee8f4"
+  dependencies:
+    vee-validate "^2.0.4"
+
 nuxt@latest:
   version "1.4.0"
   resolved "https://registry.yarnpkg.com/nuxt/-/nuxt-1.4.0.tgz#66df9ede68daf2ef4cfbcc329da7dda0003e0420"
@@ -6344,6 +6350,10 @@ validate-npm-package-license@^3.0.1:
 vary@~1.1.2:
   version "1.1.2"
   resolved "https://registry.yarnpkg.com/vary/-/vary-1.1.2.tgz#2299f02c6ded30d4a5961b0b9f74524a18f634fc"
+
+vee-validate@^2.0.4:
+  version "2.0.9"
+  resolved "https://registry.yarnpkg.com/vee-validate/-/vee-validate-2.0.9.tgz#948a96572d9e2369d5cb217a84269ecf6c1f9a11"
 
 vendors@^1.0.0:
   version "1.0.1"
