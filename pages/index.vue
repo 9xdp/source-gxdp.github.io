@@ -21,7 +21,8 @@
     <!-- Criteria -->
     <div class="box cta">
       <p class="has-text-centered">
-        프로젝트 활동의 첫 단추, 진짜 나만의 서비스를 만드는 이 곳은 <span class="tag is-primary">9XDP</span> 입니다.
+        프로젝트 활동의 첫 단추, 진짜 나만의 서비스를 만드는 이 곳은
+        <span class="tag is-primary">9XDP</span> 입니다.
       </p>
     </div>
 
@@ -58,13 +59,13 @@ export default {
     Join
   },
 
-  data() {
+  data () {
     return {
       online: true
     }
   },
 
-  mounted() {
+  mounted () {
     if (!window.navigator) {
       this.online = false
       return
@@ -75,12 +76,12 @@ export default {
   },
 
   methods: {
-    _toggleNetworkStatus({ type }) {
+    _toggleNetworkStatus ({ type }) {
       this.online = type === "online"
     }
   },
 
-  destroyed() {
+  destroyed () {
     window.removeEventListener("offline", this._toggleNetworkStatus)
     window.removeEventListener("online", this._toggleNetworkStatus)
   }
