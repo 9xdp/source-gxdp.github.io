@@ -35,12 +35,12 @@
                 MEETUP
               </nuxt-link>
               <span class="navbar-item">
-                <nuxt-link class="button is-white is-outlined is-small" to="/intro/docs">
+                <a class="button is-white is-outlined is-small" href="https://9xdp.github.io/docs/" target="_blank">
                   <span class="icon">
                     <i class="fa fa-book"></i>
                   </span>
                   <span>Docs</span>
-                </nuxt-link>
+                </a>
               </span>
             </div>
           </div>
