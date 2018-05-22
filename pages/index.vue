@@ -32,11 +32,11 @@
       <!-- Features component -->
       <Features />
       <!-- Proejcts component -->
-      <Projects />
-      <!-- Members component -->
-      <Members />
+      <Projects id="projects"/>
       <!-- Join Component -->
       <Join />
+      <!-- Members component -->
+      <Members id="members"/>
     </section>
   </div>
 </template>

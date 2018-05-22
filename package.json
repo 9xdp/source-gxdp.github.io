@@ -12,6 +12,7 @@
     "@nuxtjs/pwa": "latest",
     "@nuxtjs/sitemap": "^0.1.1",
     "@nuxtjs/toast": "^3.0.1",
+    "bulma": "^0.7.1",
     "nuxt": "latest",
     "nuxt-validate": "^0.1.1"
   },

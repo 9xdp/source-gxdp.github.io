@@ -1,5 +1,6 @@
 <template>
   <div class="section">
+    <h2 class="title has-text-centered">Members</h2>
     <div class="columns is-centered">
       <div class="column is-4">
         <div class="field">
