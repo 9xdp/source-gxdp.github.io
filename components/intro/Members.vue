@@ -1,11 +1,7 @@
 <template>
   <div class="section">
     <div class="columns has-background-white is-multiline is-mobile">
-      <div
-        class="column is-one-quarter-desktop is-half-mobile has-text-centered"
-        v-for="(value,key) in memberList"
-        :key="key"
-        >
+      <div class="column is-one-quarter-desktop is-half-mobile has-text-centered" v-for="(value,key) in memberList" :key="key">
         <figure class="image is-96x96 member-image">
           <img class="profile-image" :src="value.img || '/profile/default.png' " />
         </figure>
