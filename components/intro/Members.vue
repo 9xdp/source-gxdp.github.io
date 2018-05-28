@@ -35,6 +35,7 @@ figure.member-image {
 }
 img.profile-image {
   border-radius: 50%;
+  height: 100%;
 }
 i.fa-envelope-o {
   margin-left: 3px;

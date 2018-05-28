@@ -13,12 +13,18 @@
           </span>
         </p>
       </div>
-      <template v-if="projectSize">
-        <a class="panel-block" v-for="(value,key) in projects" :key="key" v-bind:class="value.status">
+      <template v-if="repoSize">
+        <a class="panel-block"
+          v-for="repo in repos"
+          :key="repo.id"
+          :class="repo.is_active ? 'is-active' : ''"
+          :href="repo.html_url"
+          target="_blank"
+          >
           <span class="panel-icon">
-            <i class="fa" aria-hidden="true" v-bind:class="value.icon"></i>
+            <i class="fa" aria-hidden="true" :class="repo.is_active ? 'fa-book' : 'fa-gear'"></i>
           </span>
-          {{value.title}}
+          {{repo.full_name}}
         </a>
       </template>
       <template v-else>
@@ -33,37 +39,73 @@
   </div>
 </template>
 <script>
-import projectList from '~/static/projectList.json';
+// github search api endpoint
+const REPOS_ENDPOINT = "https://api.github.com/search/repositories?q=user:9xdp&sort=updated&order=desc"
+// is-active 를 줄 repo 명
+const ACTIVE_REPO_NAMES = ['9xdp.github.io']
 
 export default {
+  async created () {
+    try {
+      const response = await this.$axios.$get(REPOS_ENDPOINT, {
+        headers: {
+          'Accept': 'application/vnd.github.mercy-preview+json'
+        }
+      })
+
+      const filteredRepos = response.items.reduce((filteredRepo, repo) => {
+        // source 가 들어가지 않은 repo만 추가
+        if (repo.name.indexOf('source') === -1) {
+          // repo name이 active 상태를 가질 경우 값 추가
+          if (ACTIVE_REPO_NAMES.includes(repo.name)) {
+            repo.is_active = true
+          }
+
+          filteredRepo.push(repo)
+        }
+
+        return filteredRepo
+      }, [])
+
+      this.repos = filteredRepos
+      this.originRepos = filteredRepos
+
+    } catch (e) {
+      console.log(e)
+      this.$toast.error('Github Search API로 부터 Project 정보를 가져올 수 없습니다');
+    }
+  },
+
   data () {
     return {
       keyword: '',
-      projects: projectList.data,
-      origProjects: JSON.parse(JSON.stringify(projectList.data))
+      repos: [],
+      originRepos: []
     }
   },
+
   watch: {
     keyword (newKeyword) {
       this.getProjectList()
     }
   },
+
   methods: {
     getProjectList () {
-      if (this.keyword === "") {
-        this.projects = this.origProjects
-        return
+      if (!this.keyword) {
+        this.repos = this.originRepos
+        return false
       }
-      this.projects = this.origProjects.filter((value) => {
-        if (value.title.includes(this.keyword)) {
-          return true;
-        }
-      });
+
+      this.repos = this.originRepos.filter(repo => {
+        return repo.name.includes(this.keyword)
+      })
     }
   },
+
   computed: {
-    projectSize () {
-      return this.projects.length > 0 ? true : false
+    repoSize () {
+      return this.repos.length > 0
     }
   }
 }
