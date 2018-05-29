@@ -31,7 +31,11 @@ module.exports = {
   ** Customize app manifest
   */
   manifest: {
-    theme_color: "#3B8070"
+    name: "9X년생 개발자 모임🌟",
+    author: "9XDP Organization",
+    description: "나만의 프로젝트를 모두와 시작해보세요",
+    theme_color: "#3B8070",
+    lang: "ko"
   },
   /*
   ** Modules
