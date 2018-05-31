@@ -58,7 +58,8 @@ module.exports = {
       {
         id: "UA-120142054-1"
       }
-    ]
+    ],
+    "@nuxtjs/sitemap"
   ],
 
   plugins: [{ src: "@/plugins/particles", ssr: false }],
