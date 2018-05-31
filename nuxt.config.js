@@ -56,7 +56,10 @@ module.exports = {
     [
       "@nuxtjs/google-analytics",
       {
-        id: "UA-120142054-1"
+        id: "UA-120142054-1",
+        autoTracking: {
+          screenview: true
+        }
       }
     ]
   ],
