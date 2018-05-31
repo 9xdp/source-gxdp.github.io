@@ -52,6 +52,12 @@ module.exports = {
       {
         lang: "ko"
       }
+    ],
+    [
+      "@nuxtjs/google-analytics",
+      {
+        id: "UA-120142054-1"
+      }
     ]
   ],
 
@@ -70,9 +76,9 @@ module.exports = {
 
         if (to.matched.length < 2) {
           position = { x: 0, y: 0 }
-        }
-
-        else if (to.matched.some((r) => r.components.default.options.scrollToTop)) {
+        } else if (
+          to.matched.some(r => r.components.default.options.scrollToTop)
+        ) {
           position = { x: 0, y: 0 }
         }
 
