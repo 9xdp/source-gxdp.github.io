@@ -89,5 +89,24 @@ module.exports = {
         return position
       }
     }
+  },
+  sitemap: {
+    path: "/sitemap.xml",
+    hostname: "https://9xdp.github.io",
+    cacheTime: 1000 * 60 * 15,
+    gzip: true,
+    generate: true, // Enable me when using nuxt generate,
+    routes: [
+      {
+        url: "/",
+        changefreq: "daily",
+        priority: 1
+      },
+      {
+        url: "/intro/meetup",
+        changefreq: "weekly",
+        priority: 0.8
+      }
+    ]
   }
 }
