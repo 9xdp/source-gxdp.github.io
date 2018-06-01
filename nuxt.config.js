@@ -18,6 +18,11 @@ module.exports = {
       {
         rel: "stylesheet",
         href:
+          "https://cdn.jsdelivr.net/npm/font-awesome@4.7.0/css/font-awesome.min.css"
+      },
+      {
+        rel: "stylesheet",
+        href:
           "https://cdn.jsdelivr.net/gh/Joungkyun/font-d2coding@1.31.0/d2coding.css"
       }
     ],
@@ -44,7 +49,6 @@ module.exports = {
     "@nuxtjs/pwa",
     "@nuxtjs/toast",
     "@nuxtjs/axios",
-    "@nuxtjs/font-awesome",
     "@nuxtjs/bulma",
     "@nuxtjs/toast",
     [
