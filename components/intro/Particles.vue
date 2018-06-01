@@ -1,24 +1,5 @@
 <template>
-  <no-ssr>
-    <vue-particles
-      color="#ffffff"
-      :particleOpacity="0.7"
-      :particlesNumber="100"
-      shapeType="circle"
-      :particleSize="4"
-      linesColor="#ffffff"
-      :linesWidth="1"
-      :lineLinked="true"
-      :lineOpacity="0.4"
-      :linesDistance="150"
-      :moveSpeed="3"
-      :hoverEffect="true"
-      hoverMode="grab"
-      :clickEffect="true"
-      clickMode="push"
-    >
-    </vue-particles>
-  </no-ssr>
+  <div id="particles-js"></div>
 </template>
 <style scoped>
   #particles-js {
@@ -29,3 +10,16 @@
     height: 50vh;
   }
 </style>
+<script>
+if (process.browser) {
+ require ('particles.js')
+}
+
+export default {
+  mounted () {
+    if (window && window.particlesJS) {
+      window.particlesJS.load('particles-js', '/particles.json');
+    }
+  }
+}
+</script>

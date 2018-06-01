@@ -15,7 +15,7 @@
     "bulma": "^0.7.1",
     "nuxt": "latest",
     "nuxt-validate": "^0.1.1",
-    "vue-particles": "^1.0.9"
+    "particles.js": "^2.0.0"
   },
   "scripts": {
     "dev": "nuxt",

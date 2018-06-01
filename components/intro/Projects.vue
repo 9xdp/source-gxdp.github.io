@@ -57,7 +57,7 @@ export default {
         // source 가 들어가지 않은 repo만 추가
         if (repo.name.indexOf('source') === -1) {
           // repo name이 active 상태를 가질 경우 값 추가
-          if (ACTIVE_REPO_NAMES.includes(repo.name)) {
+          if (ACTIVE_REPO_NAMES.indexOf(repo.name) !== -1) {
             repo.is_active = true
           }
 
@@ -98,7 +98,7 @@ export default {
       }
 
       this.repos = this.originRepos.filter(repo => {
-        return repo.name.includes(this.keyword)
+        return repo.name.indexOf(this.keyword) !== -1
       })
     }
   },

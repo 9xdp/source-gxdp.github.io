@@ -62,8 +62,6 @@ module.exports = {
     "@nuxtjs/sitemap"
   ],
 
-  plugins: [{ src: "@/plugins/particles", ssr: false }],
-
   toast: {
     duration: 2000
   },
