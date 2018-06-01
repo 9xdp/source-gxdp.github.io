@@ -4,10 +4,10 @@
 <style scoped>
   #particles-js {
     position: absolute;
-    top: 5vh;
+    top: 3em;
     left: 0;
     width: 100%;
-    height: 50vh;
+    height: 27em;
   }
 </style>
 <script>
