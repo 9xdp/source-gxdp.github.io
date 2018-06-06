@@ -31,9 +31,9 @@
               <nuxt-link class="navbar-item" to="/#members">
                 MEMBERS
               </nuxt-link>
-              <nuxt-link class="navbar-item" to="/intro/meetup">
+              <!-- <nuxt-link class="navbar-item" to="/intro/meetup">
                 MEETUP
-              </nuxt-link>
+              </nuxt-link> -->
               <span class="navbar-item">
                 <a class="button is-white is-outlined is-small" href="https://9xdp.github.io/docs/" target="_blank">
                   <span class="icon">
