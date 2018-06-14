@@ -103,11 +103,6 @@ module.exports = {
         url: "/",
         changefreq: "daily",
         priority: 1
-      },
-      {
-        url: "/intro/meetup",
-        changefreq: "weekly",
-        priority: 0.8
       }
     ]
   }
